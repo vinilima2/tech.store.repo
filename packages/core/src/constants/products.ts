@@ -1,4 +1,4 @@
-import { Product } from '../utils/product'
+import { Product } from '../product'
 
 const products: Product[] = [
     {
