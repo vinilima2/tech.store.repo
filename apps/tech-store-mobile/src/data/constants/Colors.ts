@@ -1,0 +1,8 @@
+export default {
+    PRIMARY: '#7811F5',
+    SECUNDARY: '#CB0BD4',
+    BG_PRIMARY: '#0D001E',
+    BG_SECUNDARY: '#1A0D29',
+    EMPHASIS_TEXT_GREEN: '#39D6A2',
+    EMPHASIS_TEXT_PINK: '#CB0BD4',
+}
