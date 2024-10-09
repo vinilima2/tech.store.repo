@@ -22,11 +22,11 @@ export default function Cart() {
                 {items.length === 0 && <EmptyCart />}
                 {items.map((item: any) => (
                     <CartItem
-                        key={item.produto.id}
+                        key={item.product.id}
                         item={item}
-                        addItem={() => addItem(item.produto)}
-                        removeItem={() => removeItem(item.produto)}
-                        removeProduct={() => removeProduct(item.produto)}
+                        addItem={() => addItem(item.product)}
+                        removeItem={() => removeItem(item.product)}
+                        removeProduct={() => removeProduct(item.product)}
                     />
                 ))}
             </div>
